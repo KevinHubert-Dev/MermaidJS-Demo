@@ -5,7 +5,13 @@
   <script>mermaid.initialize({ startOnLoad: true });</script>
   <style>
 
-
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 300;
+    }
+    .task-type-0 {
+      fill: linear-gradient(#e66465, #9198e5);
+    }
   </style>
 </head>
 
@@ -13,17 +19,18 @@
 <body>
 
   <h1>
-    MermaidJS
+    MermaidJS with custom CSS Styling
   </h1>
   <div class="mermaid">
-
-    graph TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    B --> A
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
+    journey
+    title My random journey
+    section Do what I like
+      Coding: 7: Me, @PC
+      Lorem ipsum: 5: Me
+      Dolor set amit: 4: Me, @PC
+    section Do what has to be done
+      Laboratim: 1: Me
+      Finished: 5: Me
   </div>
 
 
