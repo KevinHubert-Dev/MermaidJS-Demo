@@ -42,7 +42,7 @@ gantt
     title Onboarding
     dateFormat  DD.MM.YYYY
     section General
-      Welcome           :a1, 30min
+      Welcome           :a1, 60min
       Get familiar with MacOS  :after a1, 90min
     section Install programs
       communication software     :after a1, 30min
@@ -67,5 +67,7 @@ gantt
 
 # References:
 [GitHub - Mermaid-js](https://mermaid-js.github.io/mermaid/#/)
+
 [NPM react-mermaid](https://www.npmjs.com/package/react-mermaid)
+
 [Mermaid Web-Editor](https://mermaid.live/)
